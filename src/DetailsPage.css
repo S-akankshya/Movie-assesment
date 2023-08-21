@@ -1,0 +1,32 @@
+  .card {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 70%;
+    background-color: aliceblue;
+  }
+  
+  .main_div_singlepage {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .image_container {
+    text-align: center;
+  }
+  
+  .image_container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .content_container {
+    text-align: center;
+  }
+  
+  @media (max-width: 512px) {
+    .card {
+      width: 90%;
+    }
+  }
